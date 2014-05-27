@@ -6,7 +6,6 @@
  */
 
 package artcustomer.maxima.extensions.display.ui.list {
-	import artcustomer.maxima.extensions.display.ui.list.data.AbstractListItemValueObject;
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.utils.getQualifiedClassName;
@@ -15,6 +14,7 @@ package artcustomer.maxima.extensions.display.ui.list {
 	import artcustomer.maxima.errors.IllegalGameError;
 	import artcustomer.maxima.extensions.events.MenuListEvent;
 	import artcustomer.maxima.extensions.errors.AbstractListError;
+	import artcustomer.maxima.extensions.display.ui.list.data.*;
 	import artcustomer.maxima.extensions.display.ui.list.layout.*;
 	import artcustomer.maxima.extensions.display.ui.list.item.*;
 	
